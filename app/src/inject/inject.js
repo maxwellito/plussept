@@ -23,7 +23,7 @@ var geoScript = 'function arte_geoip_ip(){return plussept_tools.generate_fake_ip
  * this is an uglified version of js/retrieve_download_link.js
  * (same reasons as before)
  */
-var dlScript = 'if(!!arte_vp_sources&&arte_vp_sources.length){var fileName;for(var i in arte_vp_sources){fileName=arte_vp_sources[i].file;if(/^http.+mp4$/.test(fileName)){console.log("Download link: "+fileName)}}}';
+var dlScript = 'function plussept_dl(){if(!!arte_vp_sources&&arte_vp_sources.length){var e;for(var t in arte_vp_sources){e=arte_vp_sources[t].file;if(/^http.+mp4$/.test(e)){console.log("Download link (right click, then save link as): "+e);return}}}plussept_counter--;if(plussept_counter>0){setTimeout(plussept_dl,3e3)}}var plussept_counter=10;plussept_dl()';
 
 // Let's get all script tags
 var scriptTag,
