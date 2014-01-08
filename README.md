@@ -8,6 +8,10 @@ How to use it?
 --------------
 Download the extension package on https://raw.github.com/maxwellito/plussept/master/plussept.crx then install it (a simple drag and drop on chrome://extensions/ page should be ok).
 
+For the frenchies
+-----------------
+Comment regarder les videos d'arte a l'etranger ? Pas besoin de proxy ou de techniques farfelues, juste besoin de Google Chrome et ce plug-in. Pour l'installation, il suffit de telecharger https://raw.github.com/maxwellito/plussept/master/plussept.crx et de l'installer (en le deposant sur la page chrome://extensions/).
+
 Code
 ----
 For the record, this is my first Chrome extension. I'm sure the code can be improuved (a lot!). If a master want to give me a hand: you're welcome!
@@ -18,3 +22,10 @@ FAQ
 ---
 Why the extension is not available on Chrome Web Store?
 Well.. I don't think I'm respecting the terms and conditions with what I'm doing, and Arte might not appreciate too. So let's keep it here :-)
+
+If you have any questions, ask me on twitter @mxwllt or post an issue.
+Btw, if you're nice, there's a direct link in the browser console to download the video you're watching ;-)
+
+
+###### Disclaimer
+These videos are the property of Arte, and the usage you do of this plugin is your entire responsability. That's right I decline all responsabilities about it.
