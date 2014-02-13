@@ -4,6 +4,8 @@ plusSept
 plusSept is a Google Chrome extension to bypass the geographic restrictions on arte.tv player (and also the time protection to can watch night time shows during the day). This is not using any proxy or external services, just overriding some scripts from arte.tv. No personnal data is collected, no extra resquests are done. About permissions, this extension is only executed on arte.tv domain.
 So if you live outside of France or Germany, enjoy arte.tv again, easily.
 
+**Update**: arte.tv has updated their player, making the plug-in completely out of order. You can uninstall and install the new version (at the same URL).
+
 How to use it?
 --------------
 Download the extension package on https://raw.github.com/maxwellito/plussept/master/plussept.crx then install it (a simple drag and drop on chrome://extensions/ page should be ok).
