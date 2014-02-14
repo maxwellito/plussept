@@ -21,6 +21,7 @@
 	global.XMLHttpRequest = function(){
 		var myRequest = new XHR();
 		myRequest.onload = overwriter;
+		myRequest.onloadstart = overwriter;
 		return myRequest;
 	};
 })(window);

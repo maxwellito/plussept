@@ -8,11 +8,12 @@ So if you live outside of France or Germany, enjoy arte.tv again, easily.
 
 How to use it?
 --------------
-Download the extension package on https://raw.github.com/maxwellito/plussept/master/plussept.crx then install it (a simple drag and drop on chrome://extensions/ page should be ok).
+Download the extension package on https://raw.github.com/maxwellito/plussept/master/plussept.crx then install it (a simple drag and drop on chrome://extensions/ page should be ok). Then enjoy http://www.arte.tv/guide/fr/plus7
 
 For the frenchies
 -----------------
 Comment regarder les videos d'arte a l'etranger ? Pas besoin de proxy ou de techniques farfelues, juste besoin de Google Chrome et ce plug-in. Pour l'installation, il suffit de telecharger https://raw.github.com/maxwellito/plussept/master/plussept.crx et de l'installer (en le deposant sur la page chrome://extensions/).
+Puis profitez de tout les programmes sur http://www.arte.tv/guide/fr/plus7
 
 Code
 ----
