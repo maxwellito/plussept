@@ -12,9 +12,25 @@
 		window.arte_time_protection = function () {
 			return 'adult';
 		};
-		if (!window.dlLink) {
-			window.dlLink = document.querySelector('meta[name="twitter:player:stream"]').attributes.content.value;
-			console.log('Download link (right click, then save link as): ' + window.dlLink);
+
+		if (!!window.jsonDll) return;
+		var jsonDll = new XHR();
+		window.jsonDll = jsonDll;
+		jsonDll.onreadystatechange = function () {
+			if (jsonDll.readyState==4 && jsonDll.status==200) jsonParser(jsonDll.responseText);
+		};
+		jsonDll.open('GET',window.arte_vp_getURLParameter('json_url'),true);
+		jsonDll.send();
+	};
+
+	var jsonParser = function (dataRaw) {
+		var stream, data = JSON.parse(dataRaw);
+		var streams = data.videoJsonPlayer.VSR;
+		console.log('Download links (right click, then save link as)');
+		for (var i in streams) {
+			stream = streams[i];
+			if (stream.url.substr(-4) == '.mp4')
+				console.log('['+stream.versionLibelle+']', stream.url);
 		}
 	};
 
