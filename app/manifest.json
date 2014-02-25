@@ -1,6 +1,6 @@
 {
   "name": "+7",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "manifest_version": 2,
   "description": "Bypass the geolocalisation locker from arte.tv",
   "homepage_url": "http://github.com/maxwellito/plussept",
@@ -11,13 +11,15 @@
   },
   "default_locale": "en",
   "permissions": [
-    "http://www.arte.tv/player/*"
+    "http://www.arte.tv/player/*",
+    "http://www.arte.tv/arte_vp/*"
   ],
   "web_accessible_resources": ["js/inject.js"] ,
   "content_scripts": [
     {
       "matches": [
-        "http://www.arte.tv/player/*"
+        "http://www.arte.tv/player/*",
+        "http://www.arte.tv/arte_vp/*"
       ],
       "js": [
         "src/inject/inject.js"
