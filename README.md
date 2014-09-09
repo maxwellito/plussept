@@ -1,6 +1,8 @@
 plusSept
 ========
 
+## This repo is abandonned, due to new Chrome Extensions policy to not allow custom extensions, which kills the main idea of the repo. The race to keep the code up to date with the Arte player is now done. The code remain available if anybody want to see how works a Chrome Extension. Maybe this project will come back to life, and will be compatible on all browsers and platform.
+
 v0.2.4
 
 plusSept is a Google Chrome extension to bypass the geographic restrictions on arte.tv player (and also the time protection to can watch night time shows during the day). This is not using any proxy or external services, just overriding some scripts from arte.tv. No personnal data is collected. About permissions, this extension is only executed on arte.tv domain.
