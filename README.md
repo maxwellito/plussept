@@ -1,7 +1,9 @@
 plusSept
 ========
 
-## This repo is abandonned, due to new Chrome Extensions policy to not allow custom extensions, which kills the main idea of the repo. The race to keep the code up to date with the Arte player is now done. The code remain available if anybody want to see how works a Chrome Extension. Maybe this project will come back to life, and will be compatible on all browsers and platform.
+## This repo is abandonned, due to new Chrome Extensions policy to not allow custom extensions, which kills the main idea of the repo. The race to keep the code up to date with the Arte player is now done. The code remain available if anybody want to see how works a Chrome Extension.
+
+## But this new repo might interest you https://github.com/maxwellito/weluvarte
 
 v0.2.4
 
